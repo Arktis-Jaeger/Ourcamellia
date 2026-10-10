@@ -1,0 +1,19 @@
+{
+  "mode": "auto",
+  "dataDir": "~/.ourcamellia",
+  "defaultRecording": true,
+  "discoverable": true,
+  "connectable": true,
+  "listenHost": "0.0.0.0",
+  "listenPort": 54536,
+  "discoveryPort": 54535,
+  "discoveryTtlSeconds": 60,
+  "connectTimeoutMs": 10000,
+  "readTimeoutMs": 90000,
+  "pingIntervalMs": 30000,
+  "maxFrameBytes": 1048576,
+  "secondaryPasswordProtectHistory": false,
+  "secondaryPasswordIterations": 210000,
+  "exitPromptOnBuffered": true,
+  "logLevel": "info"
+}

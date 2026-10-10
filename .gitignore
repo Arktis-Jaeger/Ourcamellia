@@ -1,0 +1,19 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+.DS_Store
+data/
+logs/
+
+# Build byproducts of maven-shade-plugin
+dependency-reduced-pom.xml
+
+# Redundant: identical to the Ourcamellia_Harness_Package/ directory
+Ourcamellia_Harness_Package.zip
+
+# Local secrets / credentials
+.git-credentials
+*.token
+.env

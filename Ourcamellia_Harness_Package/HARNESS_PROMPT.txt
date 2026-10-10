@@ -1,0 +1,14 @@
+Build the complete first-version Ourcamellia product. Before coding, read these files in full and treat them as the governing project specification:
+
+@PROJECT.md
+@REQUIREMENTS.md
+@ARCHITECTURE.md
+@SECURITY.md
+@ROADMAP.md
+@HARNESS_TASK.md
+
+Follow HARNESS_TASK.md and ROADMAP.md. Inspect the authorized workspace and runtime first, then record major architecture decisions, unresolved product decisions, and a requirements-to-tests checklist. Start from a clean implementation rather than reusing old project source.
+
+This is one complete delivery task. Work in tested stages, but do not stop at a prototype or intermediate milestone. Implement the entire agreed first-version scope, run the complete available test suite, fix issues within scope, audit security and requirements, update documentation to match the implementation, and provide the final delivery report required by ROADMAP.md.
+
+Make ordinary engineering decisions yourself and document the rationale. Do not silently guess on product decisions that materially affect security, privacy, destructive data operations, or user-visible behavior. For such a decision, recommend a concrete option, explain the impact, and isolate the blocked work; continue all independent work. Do not waste tokens narrating trivial actions. Do not claim a requirement is complete unless the implementation and test evidence support that claim.

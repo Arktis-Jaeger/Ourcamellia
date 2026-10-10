@@ -1,0 +1,40 @@
+{
+  "bindHost": "0.0.0.0",
+  "port": 54530,
+  "serverName": "My Community",
+  "dataDir": "data",
+  "tlsAutoGenerate": true,
+  "tlsKeystorePath": "tls/keystore.p12",
+  "tlsKeystorePassword": "",
+  "requiredRegistrationFields": ["@Email"],
+  "requireEmail": true,
+  "registrationPolicy": "auto",
+  "pendingTtlMinutes": 10080,
+  "verifier": {
+    "url": "",
+    "sharedSecret": "",
+    "timeoutMs": 10000,
+    "maxRetries": 2,
+    "allowPrivateTargets": false,
+    "maxRedirects": 3
+  },
+  "notificationRetentionDays": 30,
+  "encryptedGroupsAllowed": true,
+  "botApi": { "enabled": false, "bindHost": "127.0.0.1", "port": 54700, "rateLimitPerMinute": 120 },
+  "rateLimits": {
+    "loginPerMinute": 5,
+    "registerPerMinute": 3,
+    "connectionsPerMinute": 60,
+    "friendRequestPerMinute": 10,
+    "messagePerMinute": 120,
+    "groupOpPerMinute": 30
+  },
+  "adminUsernames": ["@admin"],
+  "passwordHashIterations": 210000,
+  "reviewLogRetention": 10000,
+  "maxFrameBytes": 1048576,
+  "connectTimeoutMs": 10000,
+  "readTimeoutMs": 90000,
+  "pingIntervalMs": 30000,
+  "logLevel": "info"
+}
